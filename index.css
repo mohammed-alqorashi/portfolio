@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #17153bf1;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header ul li {
+    margin: 0 15px;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header ul li a:hover {
+    background-color: #5b47657d;
+    border-radius: 5px;
+    transform: scale(1.1);
+    box-shadow: 5px 2px 5px 2px  #98ff986f;
+
+}
+
+section {
+    padding: 50px 20px;
+    text-align:center;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f4f4f4;
+}
+
+.about-section {
+    background-image: linear-gradient(to bottom right,#17153B,#2E236C);
+    /*height:1000px ;*/
+}
+
+.img{
+    display: flex;
+    flex-direction: row-reverse;
+    filter: drop-shadow(0 0 0.4rem #06084568);
+    -webkit-filter: drop-shadow(0 0 0.4rem #06084568);
+}
+
+.img p {
+    margin-top: 60px;
+    padding-left: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: transform .6s ease;
+    -webkit-transition: transform .6s ease;
+    -moz-transition: transform .6s ease;
+    -ms-transition: transform .6s ease;
+    -o-transition: transform .6s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+/*
+DONE
+*/
+.skills-section  {
+    background-image: url(./ba1.png);
+    background-size: cover;
+}
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+}
+.htl{
+    padding-left: 20px;
+}
+.skills-section ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000004a;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transition: background-color 0.3s ease, transform 0.3s ease;
+    -moz-transition: background-color 0.3s ease, transform 0.3s ease;
+    -ms-transition: background-color 0.3s ease, transform 0.3s ease;
+    -o-transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.skills-section ul li:hover {
+    background-color: #000032;
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 3px 3px #00006c;
+}
+.contact-section{
+    background-size: cover;
+    background-image: url(./ba2.png);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
